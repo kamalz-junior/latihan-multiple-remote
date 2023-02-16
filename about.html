@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="icon" type="img/png" sizes="32x32" href="images/favicon.png">
+    <title>Modern IT Company - Mitech</title>
+</head>
+<body>
+    
+    <section>
+        <div class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/brand.png" alt=""></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">BERANDA</a></li>
+                        <li><a href="#profesi">PROGRAM</a></li>
+                        <li><a href="about.html">TENTANG</a></li>
+                        <li><a href="contact.html">KONTAK</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Tentang Kami</h1>
+        </div>
+    </section>
+
+    <!-- -----About Us Content------ -->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Jadilah Seorang yang Profesional</h1>
+                <p>
+                   Mitech berusaha menciptakan lembaga pendidikan yang transparan kepada para calon siswa, mudah diakses dan mengacu pada hasil belajar.
+                </p>
+                <a href="" class="hero-btn">EXPLORE NOW</a>
+            </div>
+
+            <div class="about-col">
+                <img src="images/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+   <!-- Footer -->
+   <footer class="footer" id="footer">
+    <div class="container">
+       <div class="row-footer">
+           <div class="footer-col">
+               <h4>KATEGORI</h4>
+               <ul>
+                   <li><a href="index.html">Beranda</a></li>
+                   <li><a href="course.html">Program</a></li>
+                   <li><a href="blog.html">Blog</a></li>
+               </ul>
+           </div>
+           <div class="footer-col">
+               <h4>LANNYA</h4>
+               <ul>
+                   <li><a href="about.html">Tentang Kami</a></li>
+                   <li><a href="#footer">Kebijakan Privasi</a></li>
+                   <li><a href="contact.html">Hubungi</a></li>
+               </ul>
+           </div>
+           <div class="footer-col">
+               <h4>HUBUNGI</h4>
+               <div class="contact-foot">
+                <a href="mailto:kamalzrocksteady@gmail.com"><i class="fas fa-envelope"></i>&emsp;mitech@gmail.com</a>
+                <a href="https://www.google.com/maps?ll=-6.229746,106.829518&z=10&t=m&hl=id&gl=ID&mapclient=embed&q=Jakarta+Daerah+Khusus+Ibukota+Jakarta"><i class="fas fa-thumbtack"></i>&emsp; Indonesia, DKI Jakarta</a>
+            </div>
+           </div>
+           <div class="footer-col">
+               <h4>follow us</h4>
+               <div class="social-links">
+                   <a href="https://www.facebook.com/muhammad.nurkamal.9699"><i class="fab fa-facebook-f"></i></a>
+                   <a href="#footer"><i class="fab fa-twitter"></i></a>
+                   <a href="https://www.instagram.com/kamalz45/"><i class="fab fa-instagram"></i></a>
+                   <a href="#footer"><i class="fab fa-linkedin-in"></i></a>
+               </div>
+           </div>
+       </div>
+    </div>
+    <div class="copyright">
+        <p><i class="fa fa-copyright" aria-hidden="true"></i>    2022 Mitect. All Rights Reserverd</p>
+        <p>Site By Muhammad Nurkamal</p>
+    </div>
+ </footer>
+
+
+
+
+    <!-- Ini Javascript -->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
